@@ -3,8 +3,8 @@ import azure.cognitiveservices.speech as speechsdk
 import os
 
 # Azure Speech service credentials
-speech_key = "8vCfO6vj2tnzHNjtrrmFX9NJmCNNpouBa8VNKenexNM5z4ntVlhPJQQJ99ALACGhslBXJ3w3AAAYACOGpCVw"  # Replace with your Azure Speech key
-service_region = "centralindia"  # Replace with your Azure region (e.g., "eastus")
+speech_key = "your key"  # Replace with your Azure Speech key
+service_region = "your region"  # Replace with your Azure region (e.g., "eastus")
 
 # Function to select a voice based on language and gender
 def get_voice(language, gender):
