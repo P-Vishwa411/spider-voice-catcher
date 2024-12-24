@@ -1,8 +1,8 @@
 import azure.cognitiveservices.speech as speechsdk
 
 # Azure Speech service credentials
-speech_key = "CqZk7RHeS5csXUIjIZpm6VCjJgp5XkrOR6vguRRy4j3KVkACTsIbJQQJ99ALACYeBjFXJ3w3AAAYACOGM2y9"
-service_region = "eastus"
+speech_key = "replace your key"
+service_region = "your region"
 
 # Function for Real-Time Speech-to-Text Translation in Top 5 Indian Languages
 def real_time_speech_translation():
