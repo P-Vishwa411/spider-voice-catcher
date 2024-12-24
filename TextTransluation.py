@@ -3,12 +3,12 @@ import uuid
 import json
 
 # Add your key and endpoint
-key = "9bql8X5ZaEmcVFx4wiIS8bWTzME8f8S1ALO1DDxqNFCelZuJ66MyJQQJ99ALACYeBjFXJ3w3AAAbACOGUO00"
-endpoint = "https://api.cognitive.microsofttranslator.com/"
+key = "replace your key"
+endpoint = "replace your end point"
 
 # location, also known as region.
 # Required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
-location = "eastus"
+location = "replace your region"
 
 path = '/translate'
 constructed_url = endpoint + path
